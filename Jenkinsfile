@@ -14,9 +14,9 @@ pipeline {
             }
         }
 
-        stage('2. Application Build & Test') {
-            steps {
-               bat 'py -3.11 -m py_compile app.py'
+       stage('Application Build & Test') {
+    steps {
+    bat '"C:\\Users\\STUDENT\\AppData\\Local\\Programs\\Python\\Python311\\python.exe" -m py_compile app.py'
             }
         }
 
